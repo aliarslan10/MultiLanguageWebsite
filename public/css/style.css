@@ -1,0 +1,568 @@
+
+.icerikalani
+{
+	overflow:hidden;
+}
+
+.sabitsayfaic
+{
+    padding: 0;
+    margin: 0;
+}
+
+.sabitsayfaic p{
+    text-indent: 18px;
+}
+
+.listmenu,
+.listmenu li
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.listmenu li a
+{
+    display: block;
+    padding: 5px;   
+    border-bottom : 1px solid #eee;
+}
+
+@font-face {
+	font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+html, body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/***** GENEL *****/
+
+.linewhite {
+    height: 7px;
+    background: url(../img/borderbaslik.png);
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.baslikanasayfa {
+    text-align: center;
+    color: #363839;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.linered {
+    height: 7px;
+    background: url(../img/borderbaslik_kirmizi.png);
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.linemavi{
+    height: 7px;
+    background: url(../img/borderbaslik_mavi.png);
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.basliksekilsiyah {
+    background: url(../img/basliksekilsiyah.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.amazingslider-nav-1{
+    top: 90% !important;
+}
+
+
+/***** HEADER ALANI *****/
+
+.headerust{
+    background-color:#f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.headerust a{
+    display: block;
+    padding: 0 0 0 7px;
+    color: #7c7c7c;
+}
+
+.uyeislemleri > li > a >i {
+  color:black;
+}
+
+.uyeislemleri > li > a > img:hover {
+    -webkit-box-shadow	: 0 0 1px 6px rgba(200, 200, 200, 0.5);
+    -moz-box-shadow		: 0 0 1px 6px rgba(200, 200, 200, 0.5);
+    box-shadow			: 0 0 1px 6px rgba(200, 200, 200, 0.5);
+}
+
+.uyeislemleri {
+	margin-bottom: 0;   
+}
+
+.uyeislemleri li{
+	padding: 5px 7px 5px 10px;
+	float:left;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    height: 100px;
+	padding-top: 15px;
+    background: #ffcd23;
+}
+
+.logoMobile{
+	width:90%;
+}
+
+@media(max-width:1140px){
+	.logoMobile{
+		width:30%;
+	}
+}
+
+@media(max-width:990px){
+	.logoMobile{
+		width:40%;
+	}
+}
+
+@media(max-width:600px){
+	.logoMobile{
+		width:80%;
+	}
+}
+
+@media(max-width:300px){
+	.logoMobile{
+		width:100%;
+	}
+}
+
+.logo:before {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    content: "";
+    height: 100%;
+    left: -100%;
+    background: #ffcd23;
+}
+
+.logo:after {
+    width: 121px;
+    height: 100px;
+    position: absolute;
+    right: -121px;
+    top: 0px;
+    content: "";
+}
+
+.logo:after {
+    background: #ffcd23 url(../img/logo-bg.png) no-repeat;
+}
+
+@media(max-width:760px){
+	.logo:after {
+		display:none;
+	}
+	
+	.headerinfo{
+		background-color: #FFCD23;
+	}
+}
+
+.top-info-con {
+    float: right;
+    position: relative;
+    z-index: 3;
+    padding-top: 15px;
+}
+
+.top-info-con ul {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.top-info-con ul li {
+    display: inline-block;
+    width: 27%;
+    text-align: left;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-left, .media>.pull-left {
+    padding-right: 5px;
+}
+
+.media-left .fa {
+    border: 1px solid;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 40px;
+    line-height: 37px;
+    margin-right: 0;
+    margin-top: 10px;
+    text-align: center;
+    width: 40px;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-body {
+    width: 10000px;
+}
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover{
+	color:gold;
+}
+
+.top-info-con h6 {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+/***** MENÜ ALANI *****/
+.navbar-default {
+    background-color:rgba(255, 255, 255, 0.2);
+    border:none;
+    background-size:100%;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: gold;
+}
+
+.navbar-default .navbar-nav>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>li:hover {
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+.sagcizgi > li{
+  border-right: 1px dashed #695c4e;
+  padding: 0 5px 0 5px;
+}
+
+/***** ÜRÜNLERİMİZ ALANI *****/
+.urunlerimiz{
+	padding: 60px 0 40px 0;
+  background-image: url('../img/redpaintbg.jpg');
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  margin-top: -40px;
+}
+
+.urunlerimiz h4{
+	color: #660000;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.urunlerimiz .container .col-md-4{
+    margin-bottom: 20px;
+}
+
+.urun{
+-webkit-box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.7);
+-moz-box-shadow: 5px 5px 5px 5px  rgba(0,0,0, 0.7);
+box-shadow:  5px 5px 5px 5px rgba(0,0,0, 0.7);
+}
+
+
+.urun:hover{
+outline: 5px solid orange;
+}
+
+
+.urunadi{
+    text-align:center;
+    position: absolute;
+    color:black;
+    padding: 10px;
+    background: orange;
+    width: 100%;
+    font-weight: bold;
+    font-size:16px;
+}
+
+
+.gorsel{
+	background-color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.urunaciklama1{
+	background-color: #cccccc;
+	text-align: center;
+	font-weight: bold;
+}
+
+.urunaciklama2{
+	background-color: #999999;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/***** FOOTER ADRES *****/
+.index1_adress {
+    margin-bottom: 25px;
+}
+
+.index1_adress .fa {
+    background: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    vertical-align: super;
+}
+
+.index1_adress .fa {
+    color: #ffcd23;
+}
+
+
+.index1_adress > p {
+    display: inline-block;
+    color: #fff;
+    margin-left: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.index1_adress span {
+    display: block;
+}
+
+.index1_adress a {
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.index1_adress a:hover {
+    color: #ffcd23;
+}
+
+
+/***** FOOTER *****/
+.nedenbizheader{
+  background-color: #f2f2f2;
+  font-size:26px;
+  font-weight: bold;
+  padding-top: 15px;
+  border-top: 4px solid #e5e5e5;
+}
+
+
+.icerikline_two
+{
+  color:#4c4c4c;
+  padding:15px 0 15px 0;
+  font-size:14px;
+  font-weight: normal;
+
+}
+
+.nedenbizbody{
+  background-image: url('../img/whywechosebg.jpg');
+  background-size: 100% 100%;
+  font-size:26px;
+  font-weight: bold;
+  padding-top: 15px;
+  border-top: 4px solid #f9f9f9;
+}
+
+
+
+/***** ###### *****/
+
+
+
+
+
+/***** FOOTER *****/
+.footer{
+	background-color: black;
+}
+
+.footer p{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 16px;
+	color: white;
+}
+
+.footer ul{
+	list-style: none;
+	padding-left: 15px;
+	color: white;
+}
+
+.footer ul li{
+	border-bottom:1px solid #191919;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.footer ul li:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer ul li a{
+	color:white;
+	margin-left: 2px;
+}
+
+
+@media(max-width:991px)
+{
+    .nav>li>a{
+        padding: 15px 5px;
+        font-size: 13px;
+    }
+}
+
+
+.footerback
+{
+    background: url(../img/footerbg.jpg);
+}
+
+.fbaslik
+{
+    color: #ffcd23;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.icerikline
+{
+  color: white;
+  padding:15px 0 15px 0;
+}
+
+.footermenu li{
+    display: block;
+    padding: 5px;
+    color: #ebebeb;
+    font-size:15px;
+}
+
+.footermenu li a{
+    display: block;
+    padding: 5px;
+    color: #ebebeb;
+}
+
+.footermenu li a:hover{
+    display: block;
+    padding: 5px;
+    color: #ffcd23;
+}
+
+.footermenu,
+.footermenu li{
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+/***** FOOTER BİLGİ *****/
+.footerinfo{
+	background-color: rgba(0,0,0,0.9) !important;
+	color: gray;
+}
+
+.imza {
+    width: 100px;
+    line-height: 28px;
+}
+
+.imza:hover{
+	background:url(../img/cukurova-.png);
+}
+
+p > img, table{
+	max-width:100% !important;
+}
