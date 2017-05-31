@@ -79,7 +79,7 @@
   <!-- BEGIN COPYRIGHT -->
   <div id="login-copyright">
        
-Çukurova Yazılım © Tüm Hakları Saklıdır.
+LARAVEL KURUMSAL - ALİ ARSLAN
   </div>
   <!-- END COPYRIGHT -->
   <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->

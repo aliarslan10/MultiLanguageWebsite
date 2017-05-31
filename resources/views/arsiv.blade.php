@@ -92,7 +92,7 @@ $(document).ready(function () {
 
 			<div class="col-sm-12 sidebarbaslik"> Reklam Alanı </div>
 			<div class="col-sm-12 sabityanmenuicerik">
-				<a rel="nofollow" target="_blank" href="http://www.cukurovapatent.com"><img src="{{ asset('img/ckova.jpg') }}"/></a>
+			
 			</div>
 		</div>
 		{{-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --}}
