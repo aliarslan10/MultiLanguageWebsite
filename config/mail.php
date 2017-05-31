@@ -17,9 +17,9 @@ return [
     */
 
     /*
-    | Laravel standart olarak bu yapýlandýrma anahtarlarýný .env dosyasýnda alacaðýný varsayacak þekilde env(‘MAIL_DRIVER’, ‘smtp’) 
-    | biçiminde ayarlanmýþtýr. Bu, þu demektir; MAIL_DRIVER deðiþkeni .env dosyasýnda tanýmlý ise onu tercih et, 
-    | yoksa smtp olarak tanýmla. 
+    | Laravel standart olarak bu yapÃ½landÃ½rma anahtarlarÃ½nÃ½ .env dosyasÃ½nda alacaÃ°Ã½nÃ½ varsayacak Ã¾ekilde env(â€˜MAIL_DRIVERâ€™, â€˜smtpâ€™) 
+    | biÃ§iminde ayarlanmÃ½Ã¾tÃ½r. Bu, Ã¾u demektir; MAIL_DRIVER deÃ°iÃ¾keni .env dosyasÃ½nda tanÃ½mlÃ½ ise onu tercih et, 
+    | yoksa smtp olarak tanÃ½mla. 
     */
 
     'driver' => env('MAIL_DRIVER', 'smtp'),
@@ -61,7 +61,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'maviforex@gmail.com', 'name' => 'MaviForex'],
+    'from' => ['address' => '', 'name' => ''],
 
     /*
     |--------------------------------------------------------------------------
