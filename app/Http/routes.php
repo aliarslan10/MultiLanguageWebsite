@@ -49,7 +49,6 @@ Route::group(['prefix' => 'ckadmin'], function () {
 	
 	Route::get('/kullanici-yonetimi', 'AdminController@kullanicilar');
 	Route::post('/reset', 'AdminController@sifremiUnuttum');
-	Route::get('/sms-gonderim-sistemi', 'AdminController@smsGonderim');
 	
 	Route::get('/blog-kategorileri', 'AdminController@blogKategori');
 	Route::get('/blog-icerikleri', 'AdminController@blogICerik');
