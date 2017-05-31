@@ -50,7 +50,6 @@ Route::group(['prefix' => 'ckadmin'], function () {
 	Route::get('/kullanici-yonetimi', 'AdminController@kullanicilar');
 	Route::post('/reset', 'AdminController@sifremiUnuttum');
 	Route::get('/sms-gonderim-sistemi', 'AdminController@smsGonderim');
-	Route::get('/chat-sistemi', 'AdminController@chatSistemi');
 	
 	Route::get('/blog-kategorileri', 'AdminController@blogKategori');
 	Route::get('/blog-icerikleri', 'AdminController@blogICerik');
@@ -62,7 +61,6 @@ Route::group(['prefix' => 'ckadmin'], function () {
 	Route::get('/toplu-mail-gonderimi', 'AdminController@topluMailIletisi');
 	Route::post('/toplu-mail-gonderimi', 'AdminController@topluMailGonder');
 	Route::get('/aa', 'AdminController@topluMailSablonu');
-	Route::get('/duyuru-yonetimi', 'AdminController@duyurular');
 	Route::get('/menuler', 'AdminController@menuler');
 	Route::get('/siparisler', 'AdminController@siparisler');
 });
