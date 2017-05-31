@@ -386,11 +386,6 @@ class AdminController extends Controller
         $xcrud->field_tooltip('sayfa_linki', 'Bu kısım sayfa başlığına göre otomatik olarak oluşturulur.
         Link, Google\'da yer edindikten sonra ürün başlığının değiştirilmesi tavsiye edilmez.');
 
-        $xcrud->column_pattern('sayfa_linki','<div class="input-group">
-                                <span style="background-color:#e5e5e5;" class="input-group-addon" id="basic-addon3">https://www.bilimis.com.tr/</span>
-                                <input type="text" class="form-control" value="{sayfa_linki}" id="basic-url" aria-describedby="basic-addon3">
-                                </div>');
-
         $xcrud->field_callback('sayfa_linki','nice_input');
 
         $xcrud->pass_var('kategori_id',3);
